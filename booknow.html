@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to Imus City</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        #heading {
+            background-image: url(images/imus.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 140px;
+            width: 90%;
+            background-position: 0%;
+            border-style: solid;
+            border-bottom: 0;
+            margin-top: 30px;
+        }
+
+        #welcome {
+            margin-top: 5px;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: Verdana;
+            color: yellow;
+            text-shadow: 5px 5px #ff0000;
+        }
+
+        #nav {
+            background-color: #053775;
+            height: 50px;
+            width: 90%;
+            border-style: solid;
+
+        }
+
+        #nav-menu {
+            background-color: #053775;
+            width: 40%;
+            height: 20%;
+            margin-top: 13px;
+            font-size: 15px;
+            font-family: Arial;
+            font-weight: bold;
+            float: right;
+
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #index {
+            background-color: black;
+            color: white;
+            padding-top: 17px;
+            padding-bottom: 18px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #About {
+            margin-top: 10px;
+            width: 90%;
+            font-family: Impact;
+            font-weight: bold;
+            font-size: 50px;
+            color: black;
+            text-align: left;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        #introduction {
+            border-style: solid;
+            background-color: white;
+            border-top: 0px;
+            padding-top: 10px;
+            margin-left: 64px;
+            margin-right: 64px;
+        }
+
+        #footer {
+            border-style: solid;
+            border-top: 0px;
+            background-color: #053775;
+            height: 70px;
+            width: 90%;
+
+
+        }
+
+
+
+        #label3 {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            margin-bottom: 0px;
+            margin-top: 5px;
+
+        }
+
+        #label4 {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 0px;
+
+        }
+
+        #label5 {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+
+        }
+
+        #thead {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 50px;
+            width: 90%;
+            font-family: Franklin Gothic Medium;
+            font-size: 25px;
+            color: white;
+            text-align: left;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        #firstlabel {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 18px;
+            color: white;
+
+
+        }
+
+        #fname {
+            width: 100%;
+
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        #tablets {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        #about {
+            margin-bottom: 40px;
+            color: white;
+            background-color: rgb(0, 0, 0);
+            border: none;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 5px;
+            margin-left: 5px;
+            font-family: Helvetica;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <!--Heading-->
+        <center>
+            <header>
+                <div id="heading">
+                    <table>
+                        <tr>
+                            <td> <img src="images/imusseal.png" height="130px" width="130px"></td>
+                            <td id="welcome">WELCOME TO IMUS CITY!
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </header>
+            <center>
+    </div>
+    <!--Nav Bar-->
+    <center>
+        <div id="nav">
+            <table id="nav-menu">
+                <tr>
+                    <td>
+                    </td>
+                    <right>
+                        <td><a href="index.html">ABOUT</a></td>
+                        <td><a href="tourism.html">TOURISM</a></td>
+                        <td><a href="culture.html">CULTURE</a></td>
+                        <td><a id="index" href="booknow.html">BOOK NOW!</a></td>
+                    </right>
+                </tr>
+
+            </table>
+        </div>
+    </center>
+</body>
+<div id="introduction">
+    <center>
+        <p id="About">FILL OUT THE FOLLOWING FORM</p>
+        <form>
+            <table style="border:solid; background-color:#053775;" id="tablets">
+                <thead>
+                    <th id="thead" colspan="2">ANSWER THE FOLLOWING</th>
+                </thead>
+                <tr>
+                    <td id="firstlabel">FIRST NAME:</td>
+                    <td><input type="text" name="fname" id="fname" placeholder="Your First Name.."></td>
+                </tr>
+                <tr>
+                    <td id="firstlabel">LAST NAME:</td>
+                    <td><input type="text" name="lname" id="fname" placeholder="Your Last Name.."></td>
+                </tr>
+                <tr>
+                    <td id="firstlabel">AGE:</td>
+                    <td><input type="number" name="age" id="fname" placeholder="Your Age.." min="18" max="65"></td>
+                </tr>
+                <tr>
+                    <td id="firstlabel">BIRTHDATE:</td>
+                    <td><input type="date" name="birthdate" id="fname"></td>
+                </tr>
+                <tr>
+                    <td id="firstlabel">ADDRESS:</td>
+                    <td><input type="text" name="address" id="fname" placeholder="Your Address.."></td>
+                </tr>
+                <tr>
+                    <td id="firstlabel">CELL NO:</td>
+                    <td><input type="number" name="cell-no" id="fname" placeholder="Your Cell No.."></td>
+                </tr>
+                <tr>
+                    <td id="firstlabel">GENDER:</td>
+                    <td>
+                        <select name="gender" id="fname">
+                            <option value="male">MALE</option>
+                            <option value="female">FEMALE</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td id="firstlabel">VALID ID</td>
+                    <td>
+                        <input type="file" name="pic" id="pic">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="firstlabel">SUGGESTION:</td>
+                    <td>
+                        <textarea cols="30" rows="10" name="self_info" id="fname"
+                            placeholder="Your Suggestions.."></textarea>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+        <br>
+        <br>
+        <input type="submit" name="Booknow" value="Book Now" id="about">
+    </center>
+
+</div>
+<center>
+    <div id="footer">
+        <p id="label3">CITY GOVERNMENT OF IMUS</p>
+        <p id="label4">WEBSITE: https://imus.gov.ph</p>
+        <p id="label5">ALL RIGHT RESERVED 2022</p>
+
+</center>
+
+
+</div>
+
+
+</html>

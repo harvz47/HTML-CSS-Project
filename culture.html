@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to Imus City</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        #heading {
+            background-image: url(images/imus.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 140px;
+            width: 90%;
+            background-position: 0%;
+            border-style: solid;
+            border-bottom: 0;
+            margin-top: 30px;
+        }
+
+        #welcome {
+            margin-top: 5px;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: Verdana;
+            color: yellow;
+            text-shadow: 5px 5px #ff0000;
+        }
+
+        #nav {
+            background-color: #053775;
+            height: 50px;
+            width: 90%;
+            border-style: solid;
+
+        }
+
+        #nav-menu {
+            background-color: #053775;
+            width: 40%;
+            height: 20%;
+            margin-top: 13px;
+            font-size: 15px;
+            font-family: Arial;
+            font-weight: bold;
+            float: right;
+
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #index {
+            background-color: black;
+            color: white;
+            padding-top: 17px;
+            padding-bottom: 18px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        #About {
+            margin-top: 10px;
+            width: 90%;
+            font-family: Impact;
+            font-weight: bold;
+            font-size: 50px;
+            color: black;
+            text-align: left;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        #introduction {
+            border-style: solid;
+            background-color: white;
+            border-top: 0px;
+            padding-top: 10px;
+            margin-left: 64px;
+            margin-right: 64px;
+        }
+
+        #image {
+            width: 50%;
+            height: 50%;
+            border-style: solid;
+            border-color: black;
+            border-width: 2px;
+            margin-bottom: 20px;
+        }
+
+        #p1 {
+            font-family: Impact;
+            font-weight: bold;
+            font-size: 60px;
+            color: black;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+        }
+
+        #p2 {
+            font-family: Arial;
+            text-align: justify;
+            font-size: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+            font-weight: bold;
+            color: rgb(61, 55, 55);
+        }
+
+
+
+        #image1 {
+            height: 208px;
+            width: 250px;
+            border-style: solid;
+            border-width: 1px;
+
+        }
+
+        #label {
+            font-family: Impact;
+            font-weight: bold;
+            color: black;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        #label1 {
+            font-family: Impact;
+            font-weight: bold;
+            color: black;
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
+
+
+
+        #footer {
+            border-style: solid;
+            border-top: 0px;
+            background-color: #053775;
+            height: 70px;
+            width: 90%;
+
+
+        }
+
+
+
+        #label3 {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+            margin-bottom: 0px;
+            margin-top: 5px;
+
+        }
+
+        #label4 {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            margin-bottom: 0px;
+
+        }
+
+        #label5 {
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+
+        }
+
+        #about {
+            margin-bottom: 40px;
+            color: white;
+            background-color: rgb(0, 0, 0);
+            border: none;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 5px;
+            margin-left: 5px;
+            font-family: Helvetica;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        #about1:hover {
+            margin-bottom: 10px;
+            color: black;
+            background-color: rgb(56, 54, 54);
+            border: none;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 5px;
+            margin-right: 670px;
+            margin-left: 30px;
+            font-family: Helvetica;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        #about:hover {
+
+            margin-bottom: 40px;
+            color: black;
+            background-color: rgb(56, 54, 54);
+            border: none;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 5px;
+            margin-left: 5px;
+            font-family: Helvetica;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+
+        #about1 {
+            margin-bottom: 10px;
+            color: white;
+            background-color: rgb(0, 0, 0);
+            border: none;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-right: 670px;
+            margin-left: 30px;
+            font-family: Helvetica;
+            cursor: pointer;
+            border-radius: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!--Heading-->
+        <center>
+            <header>
+                <div id="heading">
+                    <table>
+                        <tr>
+                            <td> <img src="images/imusseal.png" height="130px" width="130px"></td>
+                            <td id="welcome">WELCOME TO IMUS CITY!
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </header>
+            <center>
+    </div>
+    <!--Nav Bar-->
+    <center>
+        <div id="nav">
+            <table id="nav-menu">
+                <tr>
+                    <td>
+                    </td>
+                    <right>
+                        <td><a href="index.html">ABOUT</a></td>
+                        <td><a href="tourism.html">TOURISM</a></td>
+                        <td><a id="index" href="culture.html">CULTURE</a></td>
+                        <td><a href="booknow.html">BOOK NOW!</a></td>
+                    </right>
+                </tr>
+
+            </table>
+        </div>
+    </center>
+    <div id="introduction">
+        <p id="p1">
+            FESTIVITIES
+        </p>
+        <center>
+            <p id="About">NATIONAL FLAG DAY</p>
+            <img id="image" src="images/nationalflag.jpg">
+            <table>
+                <tr>
+
+                    <td><img id="image1" src="images/nationalflag1.jpg"></td>
+                    <td><img id="image1" src="images/nationalflag2.jpg"></td>
+                </tr>
+
+            </table>
+            <p id="p2">
+                On May 28, 2008, the First Wagayway Festival was celebrated. This celebration signifies the very first
+                time waving the Philippine flag during the Battle of Alapan. This five-day event includes the historical
+                reinactment of the battle and the declaration signing for Philippine Independence from Spain on June 12,
+                1898. The celebration was launched by Mayor Emmanuel Maliksi.
+                Unfortunately, in 2010, Mayor Homer Saquilayan stopped the tradition because of how costly the festivity
+                became.</p>
+
+
+            <br>
+            <p id="About">PASKUHAN SA IMUS</p>
+            <img id="image" src="images/pasko.jpg">
+            <table>
+                <tr>
+
+                    <td><img id="image1" src="images/pasko1.jpg"></td>
+                    <td><img id="image1" src="images/pasko2.jpg"></td>
+                </tr>
+
+            </table>
+            <p id="p2">
+                Imus is also known for it's one month long celebration of Christmas. Everywhere you go, there are lights
+                and decorations, lanterns and food. They also an enactment of Panunuluyan. Nightly entertainment shows
+                and events. Vendors come together to share their crafts.</p>
+            <br>
+            <p id="About">Kakanindayog Festival</p>
+            <img id="image" src="images/kakanin.jpg">
+            <table>
+                <tr>
+
+                    <td><img id="image1" src="images/kakanin1.jpg"></td>
+                    <td><img id="image1" src="images/kakanin2.jpg"></td>
+                </tr>
+
+            </table>
+            <div>
+                <p id="p2">
+                    This celebration every October is in honor of the city's patroness, Nuestra Senora del Pilar and the
+                    founding anniversary of the city through street dancing and the traditional "karakol" procession. It
+                    is
+                    also a celebration to promote the native kakanin and other delicacies which the city is well known
+                    for
+                    such as Puto Lansong.</p>
+                <p id="label1">WANT TO ENJOY PLACES IN IMUS?</p>
+                <p id="label">SCHEDULE YOUR VISIT!</p>
+                <input type="button" name="about" value="BOOK NOW!" id="about"
+                    onclick="window.location.href='booknow.html';"></input>
+                <br>
+                <br>
+                <table>
+                    <tr>
+                        <td><input type="button" name="about" value="<<<PREVIOUS PAGE" id="about1"
+                                onclick="window.location.href='tourism.html';"></input></td>
+                        <td> <input type="button" name="about" value="NEXTPAGE>>>" id="about1"
+                                onclick="window.location.href='booknow.html';"></input></td>
+
+                    </tr>
+
+                </table>
+        </center>
+
+
+    </div>
+
+
+    <center>
+        <div id="footer">
+            <p id="label3">CITY GOVERNMENT OF IMUS</p>
+            <p id="label4">WEBSITE: https://imus.gov.ph</p>
+            <p id="label5">ALL RIGHT RESERVED 2022</p>
+
+    </center>
+
+</body>
+
+</html>
